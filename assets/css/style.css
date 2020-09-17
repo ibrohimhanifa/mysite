@@ -1,11 +1,11 @@
 /* Tansition Default  */
-.home-enter-active,
-.home-leave-active {
+.default-enter-active,
+.default-leave-active {
     transition: opacity 0.5s;
 }
 
-.home-enter,
-.home-leave-active {
+.default-enter,
+.default-leave-active {
     opacity: 0;
 }
 
