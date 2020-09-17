@@ -1,11 +1,11 @@
 /* Tansition Default  */
-.default-enter-active,
-.default-leave-active {
+.page-enter-active,
+.page-leave-active {
     transition: opacity 0.5s;
 }
 
-.default-enter,
-.default-leave-active {
+.page-enter,
+.page-leave-active {
     opacity: 0;
 }
 

@@ -1,10 +1,10 @@
 <template>
   <div class="flex justify-center items-center min-h-screen">
-    <pageTransition name="default">
-      <nuxt-link to="/home">
-        <span class="btn btn-index">Let's Go!</span>
-      </nuxt-link>
-    </pageTransition>
+    <nuxt-link to="/home">
+      <span class="btn btn-index">Let's Go!</span>
+    </nuxt-link>
+    <!-- <pageTransition name="page">
+    </pageTransition>-->
   </div>
 </template>
 

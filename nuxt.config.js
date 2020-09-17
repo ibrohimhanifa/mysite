@@ -11,5 +11,5 @@ export default {
         '~/assets/css/style.css'
     ],
     components: true,
-    pageTtransition: 'default'
+    pageTransition: 'page'
 }

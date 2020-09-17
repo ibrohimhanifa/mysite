@@ -1,11 +1,7 @@
 <template>
-  <pageTransition name="default">
+  <pageTransition name="page">
     <NavBar />
-    <div class="flex justify-center items-center min-h-screen">
-      <nuxt-link to="/">
-        <button class="btn btn-index text-bold">Back</button>
-      </nuxt-link>
-    </div>
+    <div class="flex justify-center items-center min-h-screen"></div>
   </pageTransition>
 </template>
 
