@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center min-h-screen">
     <nuxt-link to="/home">
-      <span class="btn btn-index">Let's Go!</span>
+      <button class="btn btn-index transition duration-200 ease-in-out">Let's Go!</button>
     </nuxt-link>
     <!-- <pageTransition name="page">
     </pageTransition>-->
@@ -17,6 +17,6 @@
   @apply text-black bg-white;
 }
 .btn-index:hover {
-  @apply text-black bg-white shadow-lg;
+  @apply text-black bg-white shadow-2xl transform -translate-y-3 scale-110;
 }
 </style>

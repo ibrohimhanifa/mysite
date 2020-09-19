@@ -1,9 +1,15 @@
 {
   "Card": {
-    "description": "Auto imported from components/card.vue"
+    "description": "Auto imported from components/Card.vue"
   },
   "LazyCard": {
-    "description": "Auto imported from components/card.vue"
+    "description": "Auto imported from components/Card.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/Menu.vue"
+  },
+  "LazyMenu": {
+    "description": "Auto imported from components/Menu.vue"
   },
   "NavBar": {
     "description": "Auto imported from components/NavBar.vue"

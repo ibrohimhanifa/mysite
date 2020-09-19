@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _0a2772c1 = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
 const _149b517e = () => interopDefault(import('..\\pages\\home.vue' /* webpackChunkName: "pages/home" */))
 const _59e7bc7a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -23,6 +24,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/blog",
+    component: _0a2772c1,
+    name: "blog"
+  }, {
     path: "/home",
     component: _149b517e,
     name: "home"
