@@ -1,76 +1,43 @@
 <template>
   <!-- component -->
-  <div class="relative w-1/2 ml-40 m-10">
-    <div class="border-r-2 border-indigo-500 absolute h-full top-0" style="left: 15px"></div>
+  <div class="container mx-auto relative w-1/2 m-10">
+    <div class="font-bold text-3xl pb-6">This is my Journey</div>
+    <div class="border-r-8 mt-1 border-indigo-500 absolute h-full top-3" style="left: 12px"></div>
     <ul class="list-none m-0 p-0">
-      <li class="mb-2">
+      <li class="mb-10" v-for="event in events" :key="event">
         <div class="flex items-center mb-1">
           <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">Oct 2017 - First Release</div>
+          <div class="flex-1 ml-4 font-medium">{{event.date}} - {{event.name}}</div>
         </div>
-        <div class="ml-12">First release of Tailwind CSS</div>
-      </li>
-      <li class="mb-2">
-        <div class="flex items-center mb-1">
-          <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">Nov 2017 - Multiple Releases</div>
-        </div>
-        <div class="ml-12">v0.1.0 - v0.2.2</div>
-      </li>
-      <li class="mb-2">
-        <div class="flex items-center mb-1">
-          <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">Feb 2018 - Other stuff happened</div>
-        </div>
-        <div
-          class="ml-12"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus perspiciatis facilis deserunt excepturi sunt pariatur consequuntur eveniet molestias ea quia? Magni veniam illo optio tempora modi exercitationem qui adipisci ex.</div>
-      </li>
-      <li class="mb-2">
-        <div class="flex items-center mb-1">
-          <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">July 2018 - More stuff happened</div>
-        </div>
-        <div
-          class="ml-12"
-        >Consequuntur odit explicabo officiis veniam incidunt non velit ex consectetur magnam minima vero hic impedit cumque, blanditiis autem distinctio facere dolor atque facilis, eos, labore sunt iusto. Beatae, quas, dolorem?</div>
-      </li>
-      <li class="mb-2">
-        <div class="flex items-center mb-1">
-          <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">July 2018 - More stuff happened</div>
-        </div>
-        <div
-          class="ml-12"
-        >Consequuntur odit explicabo officiis veniam incidunt non velit ex consectetur magnam minima vero hic impedit cumque, blanditiis autem distinctio facere dolor atque facilis, eos, labore sunt iusto. Beatae, quas, dolorem?</div>
-      </li>
-      <li class="mb-2">
-        <div class="flex items-center mb-1">
-          <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">July 2018 - More stuff happened</div>
-        </div>
-        <div
-          class="ml-12"
-        >Consequuntur odit explicabo officiis veniam incidunt non velit ex consectetur magnam minima vero hic impedit cumque, blanditiis autem distinctio facere dolor atque facilis, eos, labore sunt iusto. Beatae, quas, dolorem?</div>
-      </li>
-      <li class="mb-2">
-        <div class="flex items-center mb-1">
-          <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">July 2018 - More stuff happened</div>
-        </div>
-        <div
-          class="ml-12"
-        >Consequuntur odit explicabo officiis veniam incidunt non velit ex consectetur magnam minima vero hic impedit cumque, blanditiis autem distinctio facere dolor atque facilis, eos, labore sunt iusto. Beatae, quas, dolorem?</div>
-      </li>
-      <li class="mb-2">
-        <div class="flex items-center mb-1">
-          <div class="bg-indigo-500 rounded-full h-8 w-8"></div>
-          <div class="flex-1 ml-4 font-medium">July 2018 - More stuff happened</div>
-        </div>
-        <div
-          class="ml-12"
-        >Consequuntur odit explicabo officiis veniam incidunt non velit ex consectetur magnam minima vero hic impedit cumque, blanditiis autem distinctio facere dolor atque facilis, eos, labore sunt iusto. Beatae, quas, dolorem?</div>
+        <div class="ml-12">{{event.desc}}</div>
       </li>
     </ul>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      events: [
+        {
+          date: "24 April 1993",
+          name: "Born",
+          type: "Bio",
+          color: "#000",
+          desc:
+            "I was born on Jakarta, Indonesia as a super duper cutie baby boy",
+        },
+        {
+          date: "24 April 1993",
+          name: "Born",
+          type: "Bio",
+          color: "#000",
+          desc:
+            "I was born on Jakarta, Indonesia as a super duper cutie baby boy",
+        },
+      ],
+    };
+  },
+};
+</script>

@@ -1,7 +1,6 @@
 <template>
+  <!-- Side Nav Bar-->
   <aside class="flex flex-col items-center bg-white text-gray-700 h-full">
-    <!-- Side Nav Bar-->
-
     <div class="h-16 flex items-center w-full">
       <nuxt-link class="h-6 w-6 mx-auto" to="/home">
         <!-- logo -->

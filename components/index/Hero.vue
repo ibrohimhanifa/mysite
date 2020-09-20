@@ -1,16 +1,13 @@
 <template>
   <!-- component -->
-
   <div class="m-auto max-w-6xl p-12">
     <div class="flex flex-col md:flex-row">
       <div class="md:w-1/2 max-w-md flex flex-col justify-center">
-        <div class="md:text-5xl text-2xl uppercase font-black">
+        <div class="md:text-5xl text-2xl font-black">
           <strong>Ibrohim</strong> Hanifa
         </div>
-        <div
-          class="md:text-5md text-lg text-center font-semibold text-gray-800"
-        >hanifa.ibrohim@gmail.com</div>
-        <div class="text-gray-800 font-bold py-2 px-4 inline-flex items-center">
+        <div class="md:text-5md text-lg font-semibold text-gray-800">hanifa.ibrohim@gmail.com</div>
+        <div class="text-gray-800 font-bold py-2 inline-flex items-center">
           <svg
             class="w-5 h-5 mr-3 text-indigo-600"
             xmlns="http://www.w3.org/2000/svg"
@@ -29,6 +26,7 @@
         <div class="my-5 p-8">
           <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Indonesia.svg" alt />
         </div>
+        <Menu />
       </div>
       <div class="flex md:justify-end w-full md:w-1/2 -mt-5">
         <div class="bg-dots">

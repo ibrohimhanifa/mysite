@@ -1,6 +1,6 @@
 <template>
   <pageTransition name="page">
-    <nuxt />
+    <Nuxt />
   </pageTransition>
 </template>
 

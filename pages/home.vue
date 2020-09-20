@@ -1,6 +1,8 @@
 <template>
   <pageTransition name="page">
-    <Menu />
+    <div class="flex justify-center items-center min-h-screen">
+      <Hero />
+    </div>
   </pageTransition>
 </template>
 
