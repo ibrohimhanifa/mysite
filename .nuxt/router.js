@@ -3,8 +3,10 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _0a2772c1 = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
+const _250976a1 = () => interopDefault(import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
 const _149b517e = () => interopDefault(import('..\\pages\\home.vue' /* webpackChunkName: "pages/home" */))
+const _70db8330 = () => interopDefault(import('..\\pages\\profile\\index.vue' /* webpackChunkName: "pages/profile/index" */))
+const _cba40cca = () => interopDefault(import('..\\pages\\profile\\timeline.vue' /* webpackChunkName: "pages/profile/timeline" */))
 const _59e7bc7a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -25,12 +27,20 @@ export const routerOptions = {
 
   routes: [{
     path: "/blog",
-    component: _0a2772c1,
+    component: _250976a1,
     name: "blog"
   }, {
     path: "/home",
     component: _149b517e,
     name: "home"
+  }, {
+    path: "/profile",
+    component: _70db8330,
+    name: "profile"
+  }, {
+    path: "/profile/timeline",
+    component: _cba40cca,
+    name: "profile-timeline"
   }, {
     path: "/",
     component: _59e7bc7a,

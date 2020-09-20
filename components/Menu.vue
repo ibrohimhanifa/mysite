@@ -3,7 +3,7 @@
     <div class="col-span-1 flex justify-center items-center">
       <div v-for="menu in menus" :key="menu">
         <nuxt-link v-bind:to="menu.link">
-          <span class="btn btn-menu">{{ menu.name }}</span>
+          <span class="btn btn-menu transition duration-200 ease-in-out">{{ menu.name }}</span>
         </nuxt-link>
       </div>
     </div>
@@ -19,7 +19,7 @@
   @apply text-black;
 }
 .btn-menu:hover {
-  @apply text-black  shadow-xl;
+  @apply text-white bg-indigo-500 shadow-2xl transform -translate-y-3 scale-110;
 }
 </style>
 
@@ -29,7 +29,7 @@ export default {
     return {
       menus: [
         {
-          name: "Blog",
+          name: "Blog (ID)",
           col: "bg-red-400",
           link: "/blog",
           desc: "Ini adalah Blog",

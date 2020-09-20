@@ -10,8 +10,9 @@ import '..\\assets\\css\\tailwind.css'
 import '..\\assets\\css\\style.css'
 
 import _6f6c098b from '..\\layouts\\default.vue'
+import _00e6bcf3 from '..\\layouts\\profile.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_profile": sanitizeComponent(_00e6bcf3) }
 
 export default {
   render (h, props) {

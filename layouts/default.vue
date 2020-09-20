@@ -1,5 +1,7 @@
 <template>
-  <nuxt />
+  <pageTransition name="page">
+    <nuxt />
+  </pageTransition>
 </template>
 
 <script>
