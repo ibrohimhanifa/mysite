@@ -1,9 +1,15 @@
 {
-  "NavBar": {
-    "description": "Auto imported from components/blog/NavBar.vue"
+  "BlogHome": {
+    "description": "Auto imported from components/blog/BlogHome.vue"
   },
-  "LazyNavBar": {
-    "description": "Auto imported from components/blog/NavBar.vue"
+  "LazyBlogHome": {
+    "description": "Auto imported from components/blog/BlogHome.vue"
+  },
+  "BlogNav": {
+    "description": "Auto imported from components/blog/BlogNav.vue"
+  },
+  "LazyBlogNav": {
+    "description": "Auto imported from components/blog/BlogNav.vue"
   },
   "Card": {
     "description": "Auto imported from components/index/Card.vue"
@@ -29,16 +35,16 @@
   "LazyMenu": {
     "description": "Auto imported from components/index/Menu.vue"
   },
-  "ProfileSideNav": {
-    "description": "Auto imported from components/profile/ProfileSideNav.vue"
+  "ProfileNav": {
+    "description": "Auto imported from components/profile/ProfileNav.vue"
   },
-  "LazyProfileSideNav": {
-    "description": "Auto imported from components/profile/ProfileSideNav.vue"
+  "LazyProfileNav": {
+    "description": "Auto imported from components/profile/ProfileNav.vue"
   },
-  "Timeline": {
-    "description": "Auto imported from components/profile/Timeline.vue"
+  "ProfileTimeline": {
+    "description": "Auto imported from components/profile/ProfileTimeline.vue"
   },
-  "LazyTimeline": {
-    "description": "Auto imported from components/profile/Timeline.vue"
+  "LazyProfileTimeline": {
+    "description": "Auto imported from components/profile/ProfileTimeline.vue"
   }
 }

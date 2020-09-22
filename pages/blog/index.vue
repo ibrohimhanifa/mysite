@@ -1,7 +1,11 @@
 <template>
   <pageTransition name="page">
-    <NavBar />
-    <div class="flex justify-center items-center min-h-screen"></div>
+    <div class="fixed">
+      <BlogNav />
+    </div>
+    <div class="flex justify-center items-center min-h-screen">
+      <BlogHome />
+    </div>
   </pageTransition>
 </template>
 
