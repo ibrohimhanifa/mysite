@@ -5,8 +5,14 @@
         <div class="md:text-5xl text-2xl uppercase font-black">
           <strong>Ibrohim</strong> Hanifa
         </div>
-        <div class="md:text-lg text-md font-semibold text-gray-00">hanifa.ibrohim@gmail.com</div>
-        <div class="md:text-lg text-md font-semibold text-gray-00">Jakarta, ID</div>
+        <div class="flex items-center">
+          <img class="h-5 mr-2" src="~/assets/icon/solid/mail.svg" alt />
+          <div class="md:text-lg text-md font-semibold text-gray-00">hanifa.ibrohim@gmail.com</div>
+        </div>
+        <div class="flex items-center">
+          <img class="h-5 mr-2" src="~/assets/icon/solid/location-marker.svg" alt />
+          <div class="md:text-lg text-md font-semibold text-gray-00">Jakarta, ID</div>
+        </div>
         <div class="my-8 h-16">
           <nuxt-link to="/blog" class="btn">Blog (ID)</nuxt-link>
           <nuxt-link to="/profile" class="btn">Profile</nuxt-link>
