@@ -11,6 +11,12 @@
   "LazyCard": {
     "description": "Auto imported from components/index/Card.vue"
   },
+  "HeroCopy": {
+    "description": "Auto imported from components/index/Hero copy.vue"
+  },
+  "LazyHeroCopy": {
+    "description": "Auto imported from components/index/Hero copy.vue"
+  },
   "Hero": {
     "description": "Auto imported from components/index/Hero.vue"
   },

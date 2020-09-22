@@ -1,12 +1,9 @@
 <template>
   <pageTransition name="page">
-    <Card />
+    <div class="fixed top-0 h-screen w-screen flex">
+      <ProfileSideNav />
+    </div>
   </pageTransition>
 </template>
 
 
-<script>
-export default {
-  layout: "profile",
-};
-</script>

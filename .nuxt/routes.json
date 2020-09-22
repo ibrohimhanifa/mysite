@@ -3,35 +3,30 @@
     "name": "blog",
     "path": "/blog",
     "component": "R:\\\\My Site\\\\pages\\\\blog\\\\index.vue",
-    "chunkName": "pages/blog/index",
-    "_name": "_250976a1"
+    "chunkName": "pages/blog/index"
   },
   {
     "name": "home",
     "path": "/home",
     "component": "R:\\\\My Site\\\\pages\\\\home.vue",
-    "chunkName": "pages/home",
-    "_name": "_149b517e"
+    "chunkName": "pages/home"
   },
   {
     "name": "profile",
     "path": "/profile",
     "component": "R:\\\\My Site\\\\pages\\\\profile\\\\index.vue",
-    "chunkName": "pages/profile/index",
-    "_name": "_70db8330"
+    "chunkName": "pages/profile/index"
   },
   {
     "name": "profile-timeline",
     "path": "/profile/timeline",
     "component": "R:\\\\My Site\\\\pages\\\\profile\\\\timeline.vue",
-    "chunkName": "pages/profile/timeline",
-    "_name": "_cba40cca"
+    "chunkName": "pages/profile/timeline"
   },
   {
     "name": "index",
     "path": "/",
     "component": "R:\\\\My Site\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_59e7bc7a"
+    "chunkName": "pages/index"
   }
 ]

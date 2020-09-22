@@ -93,7 +93,7 @@
     <div class="mt-auto h-16 flex items-center w-full">
       <!-- Action Download -->
       <button
-        class="h-16 mx-auto flex justify-center items-center w-full focus:text-indigo-500 hover:bg-indigo-100 focus:outline-none"
+        class="h-16 mx-auto flex justify-center items-center w-16 focus:text-indigo-500 hover:bg-indigo-100 focus:outline-none"
       >
         <svg
           class="h-5 w-5 text-blue-700"

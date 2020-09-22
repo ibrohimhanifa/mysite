@@ -2,7 +2,7 @@
   <div class="flex justify-center items-center">
     <div v-for="menu in menus" :key="menu">
       <nuxt-link v-bind:to="menu.link">
-        <button class="btn btn-menu transition duration-200 ease-in-out">{{ menu.name }}</button>
+        <span class="btn btn-menu transition duration-200 ease-in-out">{{ menu.name }}</span>
       </nuxt-link>
     </div>
   </div>

@@ -1,11 +1,9 @@
 <template>
-  <div class="h-screen w-screen flex">
+  <div>
+    <div class="fixed top-0 h-screen w-screen flex">
+      <ProfileSideNav />
+    </div>
     <Timeline />
   </div>
 </template>
 
-<script>
-export default {
-  layout: "profile",
-};
-</script>
