@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <ProfileTimeline />
+  </div>
 </template>
 
 <script>
@@ -11,4 +13,3 @@ export default {
   },
 };
 </script>
-

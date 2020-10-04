@@ -1,8 +1,10 @@
 <template>
   <!-- Side Nav Bar-->
   <aside class="flex flex-col items-center bg-white text-gray-700 h-full">
-    <nuxt-link class="h-16 w-full mx-auto flex justify-center items-center" to="/home">
-      <!-- logo -->
+    <nuxt-link
+      class="h-16 w-full mx-auto flex justify-center items-center"
+      to="/"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="bg-gray-900 text-white h-8 mt-3 p-2 rounded-md fill-current"
@@ -15,7 +17,6 @@
           clip-rule="evenodd"
         />
       </svg>
-      <!-- logo -->
     </nuxt-link>
 
     <ul>
@@ -23,7 +24,7 @@
       <li>
         <nuxt-link
           to="/profile"
-          class="h-16 px-6 flex justify-center items-center w-full focus:text-gray-500"
+          class="h-16 px-4 flex justify-center items-center w-full focus:text-gray-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,29 +42,11 @@
           </svg>
         </nuxt-link>
       </li>
-      <!-- Items Timeline -->
+      <!-- Items Work -->
       <li>
         <nuxt-link
-          to="/profile/timeline"
-          class="h-16 px-6 flex justify-center items-center w-full focus:text-gray-500"
-        >
-          <svg
-            class="nav"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
-            />
-          </svg>
-        </nuxt-link>
-      </li>
-      <!-- Items Project -->
-      <li>
-        <nuxt-link
-          to="/profile/timeline"
-          class="h-16 px-6 flex justify-center items-center w-full focus:text-gray-500"
+          to="/profile/work"
+          class="h-16 px-4 flex justify-center items-center w-full focus:text-gray-500"
         >
           <svg
             class="nav"
@@ -88,7 +71,7 @@
       <!-- Action Download -->
       <button class="h-16 mx-auto flex justify-center items-center w-16">
         <svg
-          class="nav"
+          class="bg-gray-900 text-white h-8 mt-3 p-2 rounded-md fill-current"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
@@ -107,9 +90,9 @@
 
 <style lang="postcss" scoped>
 .nav {
-  @apply h-6 fill-current text-gray-900;
+  @apply h-8 p-2 fill-current text-gray-900;
 }
 .nav:hover {
-  @apply h-8 bg-gray-900 text-white p-2 rounded-md fill-current;
+  @apply bg-gray-900 text-white rounded-md fill-current;
 }
 </style>
