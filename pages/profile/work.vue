@@ -7,9 +7,5 @@
 <script>
 export default {
   layout: "profile",
-  // OR
-  layout(context) {
-    return "profile";
-  },
 };
 </script>
