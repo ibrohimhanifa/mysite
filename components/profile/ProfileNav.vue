@@ -1,8 +1,6 @@
 <template>
   <!-- Side Nav Bar-->
-  <aside
-    class="flex flex-col items-center bg-white text-gray-700 h-screen absolute top-0"
-  >
+  <aside class="flex flex-col items-center bg-white text-gray-700">
     <nuxt-link
       class="h-16 w-full mx-auto flex justify-center items-center"
       to="/"

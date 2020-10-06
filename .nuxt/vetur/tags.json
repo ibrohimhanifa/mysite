@@ -5,16 +5,16 @@
   "LazyHero": {
     "description": "Auto imported from components/index/Hero.vue"
   },
+  "ProfileIndex": {
+    "description": "Auto imported from components/profile/ProfileIndex.vue"
+  },
+  "LazyProfileIndex": {
+    "description": "Auto imported from components/profile/ProfileIndex.vue"
+  },
   "ProfileNav": {
     "description": "Auto imported from components/profile/ProfileNav.vue"
   },
   "LazyProfileNav": {
     "description": "Auto imported from components/profile/ProfileNav.vue"
-  },
-  "ProfileTimeline": {
-    "description": "Auto imported from components/profile/ProfileTimeline.vue"
-  },
-  "LazyProfileTimeline": {
-    "description": "Auto imported from components/profile/ProfileTimeline.vue"
   }
 }
