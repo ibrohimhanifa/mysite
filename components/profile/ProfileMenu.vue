@@ -15,6 +15,7 @@
       </div>
     </div>
   </nuxt-link>
+  <nuxt-link to="/profile/work">
     <div class="card bg-teal-500">
       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
         <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white"/>
@@ -27,6 +28,8 @@
           <span class="block font-semibold text-xl">Projcet</span>
       </div>
     </div>
+  </nuxt-link>
+  <nuxt-link to="/profile/work">
     <div class="card bg-purple-500 hover:text-purple-500">
       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
         <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white"/>
@@ -39,6 +42,7 @@
           <span class="block font-semibold text-xl">Organization</span>
       </div>
     </div>
+  </nuxt-link>
   </div>
 </template>
 
