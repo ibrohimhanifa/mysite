@@ -1,15 +1,33 @@
 {
+  "BlogHome": {
+    "description": "Auto imported from components/blog/BlogHome.vue"
+  },
+  "LazyBlogHome": {
+    "description": "Auto imported from components/blog/BlogHome.vue"
+  },
   "Hero": {
     "description": "Auto imported from components/index/Hero.vue"
   },
   "LazyHero": {
     "description": "Auto imported from components/index/Hero.vue"
   },
-  "ProfileIndex": {
-    "description": "Auto imported from components/profile/ProfileIndex.vue"
+  "Hero2": {
+    "description": "Auto imported from components/index/Hero2.vue"
   },
-  "LazyProfileIndex": {
-    "description": "Auto imported from components/profile/ProfileIndex.vue"
+  "LazyHero2": {
+    "description": "Auto imported from components/index/Hero2.vue"
+  },
+  "ProfileTemplate": {
+    "description": "Auto imported from components/other/profile_template.vue"
+  },
+  "LazyProfileTemplate": {
+    "description": "Auto imported from components/other/profile_template.vue"
+  },
+  "ProfileMenu": {
+    "description": "Auto imported from components/profile/ProfileMenu.vue"
+  },
+  "LazyProfileMenu": {
+    "description": "Auto imported from components/profile/ProfileMenu.vue"
   },
   "ProfileNav": {
     "description": "Auto imported from components/profile/ProfileNav.vue"

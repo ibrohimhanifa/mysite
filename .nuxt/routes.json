@@ -1,5 +1,12 @@
 [
   {
+    "name": "blog",
+    "path": "/blog",
+    "component": "R:\\\\My Site\\\\pages\\\\blog\\\\index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_250976a1"
+  },
+  {
     "name": "profile",
     "path": "/profile",
     "component": "R:\\\\My Site\\\\pages\\\\profile\\\\index.vue",
