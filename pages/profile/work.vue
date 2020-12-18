@@ -1,4 +1,8 @@
 <template>
+<div>
+      <div class="m-8">
+      <nuxt-link to="/profile" class="btn">Back To Profile</nuxt-link>
+    </div>
   <div id="homepage">
     <div
       class="project max-w-4xl px-10 my-4 py-6 bg-white rounded-lg shadow-md"
@@ -42,6 +46,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -78,5 +83,16 @@ export default {
 }
 #homepage .project {
   padding-bottom: 5vh;
+}
+
+</style>
+
+<style lang="postcss" scoped>
+.btn {
+  @apply shadow-md font-semibold py-3 px-6 text-gray-100 cursor-pointer bg-gray-900 rounded-lg text-lg text-center w-48;
+}
+
+.btn:hover {
+  @apply text-gray-900 bg-white shadow-2xl;
 }
 </style>
