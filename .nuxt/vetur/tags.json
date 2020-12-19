@@ -11,12 +11,6 @@
   "LazyHero": {
     "description": "Auto imported from components/index/Hero.vue"
   },
-  "Hero2": {
-    "description": "Auto imported from components/index/Hero2.vue"
-  },
-  "LazyHero2": {
-    "description": "Auto imported from components/index/Hero2.vue"
-  },
   "ProfileTemplate": {
     "description": "Auto imported from components/other/profile_template.vue"
   },
@@ -34,5 +28,11 @@
   },
   "LazyProfileNav": {
     "description": "Auto imported from components/profile/ProfileNav.vue"
+  },
+  "ProfileProject": {
+    "description": "Auto imported from components/profile/ProfileProject.vue"
+  },
+  "LazyProfileProject": {
+    "description": "Auto imported from components/profile/ProfileProject.vue"
   }
 }

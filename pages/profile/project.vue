@@ -1,12 +1,10 @@
 <template>
   <pageTransition name="page">
-    <div class="min-h-screen">
-      <div class="p-8 ">
-        <nuxt-link to="/" class="btn">Back</nuxt-link>
-      </div>
-      <div class="flex justify-center items-center">
-        <ProfileMenu />
-      </div>
+    <div class="p-8">
+      <nuxt-link to="/profile" class="btn">Back To Profile</nuxt-link>
+    </div>
+    <div class="flex justify-center items-center min-h-screen">
+      <ProfileProject />
     </div>
   </pageTransition>
 </template>

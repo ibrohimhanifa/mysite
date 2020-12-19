@@ -14,6 +14,13 @@
     "_name": "_70db8330"
   },
   {
+    "name": "profile-project",
+    "path": "/profile/project",
+    "component": "R:\\\\My Site\\\\pages\\\\profile\\\\project.vue",
+    "chunkName": "pages/profile/project",
+    "_name": "_3a5044a2"
+  },
+  {
     "name": "profile-work",
     "path": "/profile/work",
     "component": "R:\\\\My Site\\\\pages\\\\profile\\\\work.vue",
