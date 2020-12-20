@@ -58,7 +58,6 @@ const url =
   "https://sheets.googleapis.com/v4/spreadsheets/1bB8UJ8idRyTSGiUa2U0xgun_wwQXbGxl6CG1DC4OPmo/values/projects!A1:J1000?key=AIzaSyBCL9IShJzo5MrEojaYHbfD1SlGPw13dJo";
 
 export default {
-  layout: "profile",
   async asyncData() {
     const response = await axios.get(url);
     const rows = response.data.values;

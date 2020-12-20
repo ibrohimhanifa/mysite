@@ -28,11 +28,5 @@
   },
   "LazyProfileNav": {
     "description": "Auto imported from components/profile/ProfileNav.vue"
-  },
-  "ProfileProject": {
-    "description": "Auto imported from components/profile/ProfileProject.vue"
-  },
-  "LazyProfileProject": {
-    "description": "Auto imported from components/profile/ProfileProject.vue"
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <pageTransition name="page">
     <div class="min-h-screen">
-      <div class="p-8 ">
+      <div class="p-8">
         <nuxt-link to="/" class="btn">Back</nuxt-link>
       </div>
       <div class="flex justify-center items-center">
