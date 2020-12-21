@@ -1,6 +1,6 @@
 <template>
   <pageTransition name="page">
-    <div class="flex justify-center items-center min-h-screen">
+    <div class="">
       <BlogHome />
     </div>
   </pageTransition>

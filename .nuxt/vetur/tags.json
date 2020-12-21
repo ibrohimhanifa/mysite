@@ -1,4 +1,10 @@
 {
+  "BlogHeader": {
+    "description": "Auto imported from components/blog/BlogHeader.vue"
+  },
+  "LazyBlogHeader": {
+    "description": "Auto imported from components/blog/BlogHeader.vue"
+  },
   "BlogHome": {
     "description": "Auto imported from components/blog/BlogHome.vue"
   },
@@ -16,6 +22,12 @@
   },
   "LazyProfileTemplate": {
     "description": "Auto imported from components/other/profile_template.vue"
+  },
+  "ProfileHeader": {
+    "description": "Auto imported from components/profile/ProfileHeader.vue"
+  },
+  "LazyProfileHeader": {
+    "description": "Auto imported from components/profile/ProfileHeader.vue"
   },
   "ProfileMenu": {
     "description": "Auto imported from components/profile/ProfileMenu.vue"

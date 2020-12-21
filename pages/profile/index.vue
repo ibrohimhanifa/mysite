@@ -1,8 +1,8 @@
 <template>
   <pageTransition name="page">
     <div class="min-h-screen">
-      <div class="p-8">
-        <nuxt-link to="/" class="btn">Back</nuxt-link>
+      <div class="p-8 flex flex-row-reverse">
+        <nuxt-link to="/" class="btn-home"></nuxt-link>
       </div>
       <div class="flex justify-center items-center">
         <ProfileMenu />
@@ -18,11 +18,11 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-.btn {
-  @apply shadow-md font-semibold py-3 px-6 text-gray-100 cursor-pointer bg-gray-900 rounded-lg text-lg text-center w-48;
+.btn-home {
+  @apply shadow-md h-10 w-10 rounded-full bg-gray-900 text-lg text-center;
 }
 
-.btn:hover {
+.btn-home:hover {
   @apply text-gray-900 bg-white shadow-2xl;
 }
 </style>

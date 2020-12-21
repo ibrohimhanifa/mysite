@@ -1,9 +1,7 @@
 <template>
   <pageTransition name="page">
     <div class="min-h-screen">
-      <div class="p-8">
-        <nuxt-link to="/profile" class="btn">Back To Profile</nuxt-link>
-      </div>
+      <ProfileHeader />
       <div class="flex justify-center items-center">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
@@ -12,7 +10,7 @@
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
             <div class="mb-6 flex flex-col justify-center items-center max-w-sm mx-auto" v-for="project in projects" :key="project">
               <div class=" w-60 bg-white m-1 shadow-2xl rounded-lg overflow-hidden p-5">
-                <div class="title-post font-bold">{{ project.name }}</div>  
+                <div class="title-post font-bold text-teal-700">{{ project.name }}</div>  
                 <div class="category-title flex-4 text-sm mb-2">({{ project.start }} - {{ project.end }})</div>
                 <div class="header-content inline-flex ">
                   <div class="category-badge flex-1  h-4 w-4 m rounded-full m-1 bg-white">
@@ -52,13 +50,3 @@ export default {
   },
 };
 </script>
-
-<style lang="postcss" scoped>
-.btn {
-  @apply shadow-md font-semibold py-3 px-6 text-gray-100 cursor-pointer bg-gray-900 rounded-lg text-lg text-center w-48;
-}
-
-.btn:hover {
-  @apply text-gray-900 bg-white shadow-2xl;
-}
-</style>
